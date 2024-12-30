@@ -1,4 +1,6 @@
-//  Primitive
+// Based on how these stored in memory and accessed
+
+//  Primitive :- call by value
 
 //  7 types : String, Number, Boolearn, null, undefined, Symbol, BigInt
 
@@ -7,7 +9,7 @@ const scoreValue = 100.3
 
 const isLoggedIn = false
 const outsideTemp = null
-let userEmail;
+let userEmail ;
 
 const id = Symbol('123')
 const anotherId = Symbol('123')
@@ -18,7 +20,7 @@ console.log(id === anotherId);
 
 
 
-// Reference (Non primitive)
+// Reference (Non primitive) 
 
 // Array, Objects, Functions
 
@@ -35,3 +37,11 @@ const myFunction = function(){
 console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++
+
+Memory Management 
+
+Stack(primitive) :- copy of value , Heap(non-primitive) :- reference of original value
+
+*/
