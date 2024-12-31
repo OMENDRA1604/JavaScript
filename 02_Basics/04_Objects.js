@@ -1,4 +1,4 @@
-// const tinderUser = new Object()
+// const tinderUser = new Object() // singleton object
 const tinderUser = {}
 
 tinderUser.id = "123abc"
@@ -48,11 +48,11 @@ const users = [
 users[1].email
 // console.log(tinderUser);
 
-// console.log(Object.keys(tinderUser));
+// console.log(Object.keys(tinderUser));  // return data type array
 // console.log(Object.values(tinderUser));
-// console.log(Object.entries(tinderUser));
+// console.log(Object.entries(tinderUser));  key value pair in array    
 
-// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn')); // to check property present or not
 
 
 const course = {
