@@ -50,9 +50,11 @@ function addone(num){
     return num + 1
 }
 
-
-
-addTwo(5)
+// function as a expression
+// While using function as expression we can't use function above declaration
+// console.log(addTwo(5))
 const addTwo = function(num){
     return num + 2
 }
+
+console.log(addTwo(5))
